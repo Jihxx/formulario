@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="form.css" midia="screen">
+    <title>Documento</title>
+</head>
+<body>
+    <div class="cadastro">
+        <h1 id="titulo"> Cadastro do Leitor</h1>
+        <p id="subtitulo">informações do Leitor:</p>
+        <br>
+   
+
+    <forms>
+        <fieldset class="grupo">
+            <div class="grupoNomeSobrenome">
+                <div class="campo">
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type = "text" nome="nome" id="nome" required>
+                </div>
+                <div class="campo"> 
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" nome="sobrenome" id="sobrenome" required>
+                </div>
+            </div>
+        </fieldset>
+                <div class="datacelular">
+                    <div class="campo">
+                        <label for="email"><strong>Data de Nascimento</strong></label>
+                        <input type="date" nome="datadenascimento" id="datadenascimento" required>
+                    </div>
+                        
+                            <div class="campo">
+                                <label for="email"><strong> Celular</strong></label>
+                                <input type="text" nome="celular" id="celular" required>
+                            </div>
+                </div>
+                        <div>
+                             <div class="campo">
+                                <label for="email"><strong>Email  </strong></label>
+                                <input type="email" nome="email" id="email" required>
+                            </div>
+                        </div>
+
+                    <div class="campo">
+                        <label for="email"><strong> Nome do Livro</strong></label>
+                        <input type="text" nome="nomedolivro" id="nomedolivro" required>
+                    </div>
+                        
+        
+        <div class="genero">
+            <label for="genero"><strong>Gênero</strong></label>
+            <select id="genero">
+                <option selected disabled value="">Selecione</option>
+                <option>Romance</option>
+                <option>Terror</option>
+                <option>Comédia</option>
+                <option>Suspense</option>
+                <option>Aventura</option>
+                <option>Ficção</option>
+                <option>Ação</option>
+                <option>Conto</option>
+                <option>Poema</option>
+                <option>Drama</option>
+                <option>Fantasia</option>
+            </select>
+        </div>
+        <fieldset class="grupo">
+           
+        </fieldset>
+        <div class="data">
+            <div class="campo">
+                <br>
+                    <label for="email"><strong> Data de Retirada</strong></label>
+                    <input type="date" nome="data" id="data" required>
+            </div>
+                <div class="campo">
+                    <br>
+                        <label for="email"><strong> Data de Devolução</strong></label>
+                        <input type="date" nome="data" id="data" required>
+                </div>
+        </div>
+    </div>
+        <button type="submit" class="botao"> Concluido</button>
+    </forms>
+</body>
+</html>
